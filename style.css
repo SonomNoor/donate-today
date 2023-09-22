@@ -1,0 +1,47 @@
+.header-one {
+
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+
+
+.centered {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.donate-intro {
+    text-align: center;
+
+}
+
+.donate-button {
+    background-image: linear-gradient(red, orange);
+    padding: 10px;
+    color: white;
+    font-weight: 800px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.donate-box {
+    display: flex;
+    text-align: justify;
+}
